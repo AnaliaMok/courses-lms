@@ -1,0 +1,10 @@
+{
+    "editor.formatOnSave": true,
+    "phpfmt.psr2": true,
+    "php-docblocker.qualifyClassNames": true,
+    "phpcs.ignorePatterns": ["vendor/**/*.php", "vendor/*"],
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.insertSpaces": true,
+    "html.format.indentInnerHtml": false
+}
