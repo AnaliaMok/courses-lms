@@ -7,6 +7,11 @@ config:
   php: 7.3
   database: postgres
   # cache: redis
+services:
+  node:
+    type: node
+    build:
+      - npm install
 tooling:
   node:
     service: node

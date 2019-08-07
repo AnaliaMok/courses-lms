@@ -1,10 +1,13 @@
 {
-    "editor.formatOnSave": true,
-    "phpfmt.psr2": true,
-    "php-docblocker.qualifyClassNames": true,
-    "phpcs.ignorePatterns": ["vendor/**/*.php", "vendor/*"],
-    "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
-    "editor.insertSpaces": true,
-    "html.format.indentInnerHtml": false
+  "editor.formatOnSave": true,
+  "phpfmt.psr2": true,
+  "php-docblocker.qualifyClassNames": true,
+  "phpcs.ignorePatterns": ["vendor/**/*.php", "vendor/*", "resources/**/*", ".prettierrc"],
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.insertSpaces": true,
+  "html.format.indentInnerHtml": false,
+  "[javascript]": {
+    "editor.tabSize": 2
+  }
 }
